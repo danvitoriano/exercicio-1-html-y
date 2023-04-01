@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-size: 1em;
+}
+
 p {
-    background-color: gainsboro;
-    color: red;
-    font-size: 20px;
+    color: #000;
+    font-size: 2em;
 }
 
 a {
@@ -11,7 +16,9 @@ a {
 }
 
 h2 {
-    color: pink
+    color: pink;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
 }
 
 #idNome{
@@ -26,4 +33,20 @@ input{
 .colorido {
     color: orangered;
     font-size: 30px;
+}
+
+.background{
+    background-image: url('../img/tile.jpg');
+    background-position: center center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.transparente {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.estilo{
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
 }
